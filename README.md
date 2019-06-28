@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
-===========================
+TypeScript Async Return "null" Demo
+===================================
+
+在一个async函数中，就算直接`return null`，函数的返回值也将会是`Promise(null)`
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
